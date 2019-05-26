@@ -14,3 +14,16 @@ Many restaurants have come and go and some have been for around since 1849.
 Ottawa is a quickly growing city, outpacing both Canada and Ontario in population percentage increases year after year. 
 This makes it a city for eager and passionate immigrants and residents ready to open
 and establish restaurants and for investors who are looking to capitalize on the growth opportunities.
+
+This project aims to explore, analyze, cluster and predict where and what type of restaurant would be successful 
+in Ottawa using several supervised and unsupervised methods such as, logistic regression, 
+K-Means and continuous time series Markov Models. It will utilize the Foursquare API to leverage 
+its venue and rating information, an ethnic restaurant data set provided by a Reddit user 
+(https://www.reddit.com/r/ottawa/comments/882dft/i_made_an_excel_spreadsheet_with_all_the_ethnic/) 
+will be used as to avoid chains and other franchises which may effect result outcomes as well having 
+access to reviews and several data sets from OpenData Ottawa (http://data.ottawa.ca/) which will gather 
+neighborhood population and the names of those neighborhoods. To support the analysis and it will visualize 
+the analysis using Folium and Seaborn.
+
+The success of a restaurant lies in having a great product, an appropriate customer and the correct environment. 
+Let data find the most probable environment for the restaurant to succeed!
