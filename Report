@@ -1,0 +1,54 @@
+
+Ottawa Restaurant Type and Location Prediction
+
+    Defining the Business Problem
+
+Restaurants are an integral part of a cities economy. They help feed business meetings, they help establish an areas culture and identity, often times they mark the beginnings of important relationships etc.. Unfortunately, nearly 80% of new restaurants close within the first 5 years of opening! Often times these closures happen for the actions a new restaurant owner before even opening. Among the largest problems is a matter of location.
+
+If you are interested in becoming a restaurant owner or in investing in restaurants it is in important to understand where and what type of restaurant will be most successful in that city.
+
+Ottawa is the capital of Canada with a deep and rich history. Many restaurants have come and go and some have been for around since 1849. Ottawa is a quickly growing city, outpacing both Canada and Ontario in population percentage increases year after year. This makes it a city for eager and passionate immigrants and residents ready to open and establish restaurants and for investors who are looking to capitalize on the growth opportunities.
+
+2. Datasets
+
+This project aims to explore, analyze, cluster and predict where and what type of restaurant would be successful in Ottawa using several supervised and unsupervised methods such as, logistic regression, K-Means and continuous time series Markov Models. It will utilize the Foursquare API to leverage its venue and rating information, an ethnic restaurant data set provided by a Reddit user (https://www.reddit.com/r/ottawa/comments/882dft/i_made_an_excel_spreadsheet_with_all_the_ethnic/) will be used as to avoid chains and other franchises which may effect result outcomes as well having access to reviews and several data sets from OpenData Ottawa (http://data.ottawa.ca/) which will gather neighborhood population and the names of those neighborhoods. To support the analysis and it will visualize the analysis using Folium and Seaborn.
+
+3. Methodology
+
+The objective for the project was to find the ideal location and type of restaurants that would produce be beneficial to the growth of a new restaurant in Ottawa.
+
+Firstly, some exploratory analysis was done on the existing data sets . What I was interested in was finding the most popular areas in Ottawa. This would provide street names, population and IDs for specific area locations and thus aid in choosing a location. You cannot have a successful restaurant without people and understanding the population of an area is crucial.
+
+This graph takes a look at the population statistics of Ottawa street area. As the visualization shows, key areas are much larger in population as the rest. The main 5 are listed here:
+
+If you are opening a restaurant it would be beneficial to open it in one of these key areas. The leading Orleans Avalon has almost x2 the amount as the third in population.
+
+The next analysis was done on the venues in the Ottawa area. What was required for this analysis was a platform for venues (Foursquare) and some other data. Venues in which belonged to franchises were excluded in this analysis as it defeats the target audience and because they are owned and run by primarily larger organizations. This would not be in the interest of the individual wanting to make a new restaurant in Ottawa.
+
+The resulting data indicates that ethnic restaurants of Indian and Thai are generally a lot more popular than others. These were the top 3 listed here. The data comprises of over 100 different restaurants in the area.
+
+The next analysis that is required is looking at the venue types that are popular in the Ottawa area. This would provide incite into what type of restaurant would be appropriate for individuals in Ottawa. The analysis was taken and found shocking results.
+
+Prominently most restaurants in Ottawa, excluding those franchises, are sit down only restaurants. The first has 114 and the 2nd has only 4.
+
+The last thing to do was to present and cluster the streets and restaurant data. I used geocoder information of Ottawa and the Folium package to do this analysis. This is done by K-Means.
+
+The southern areas of Ottawa comprised of most of the individuals and restaurants available. This would be primarily the target area.
+
+4. Results
+
+Using the different techniques of Data Science, what was found is that the most appropriate type of restaurant based on population, venue categories and location are Indian and Southern Asian cuisine based in the Orleans Avalon area as these areas have higher density. It would also be appropriate for investors to consider these areas as well and to not specifically look at franchises.
+
+5. Discussion
+
+The general idea of the project was interesting and the results based on the methodology and the analysis used was profound. Going forward, it would be appropriate to build an ethnic style restaurant in some of these locations.
+
+However, there is some caution to be said. Population, venue and location data are all governed by policy. There are location restrictions and commercialization to take into account. You cannot build restaurants wherever you would like. Unfortunately, policy data is unavailable for the this type of analysis. That said, it would be appropriate to build in those areas listed above.
+
+6. Conclusion
+
+As a result, people are turning to big cities, as there populations are growing and are interested in starting a restaurant. To accomplish this successfully investors and residents require information that tells them useful and important information about the area around them. Utilizing Foursquare and several other data sets along with general analysis has shown where appropriate locations exist.
+
+Github: https://github.com/MatthewByra1/Ottawa-Restaurant-Type-and-Location-Prediction
+
+
